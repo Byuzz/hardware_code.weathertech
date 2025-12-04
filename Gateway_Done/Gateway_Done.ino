@@ -9,10 +9,11 @@
 const char* ssid = "Your_WiFi";
 const char* password = "Your_Password"; 
 
-String MQTT_HOST = "ef0b64d1857f49109acb946f7e9732d8.s1.eu.hivemq.cloud";
+//set akun HiveMQ
+String MQTT_HOST = "##";
 int MQTT_PORT = 8883;
-String MQTT_USER = "byuzz";
-String MQTT_PASS = "Byuz0206"; 
+String MQTT_USER = "##";
+String MQTT_PASS = "##"; 
 String DEVICE_NAME = "weathertech";
 
 WiFiClientSecure wifiClient;
