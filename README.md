@@ -23,6 +23,7 @@ Sistem ini terdiri dari dua perangkat utama:
 
 Pastikan struktur folder Anda seperti berikut agar dapat dikompilasi di Arduino IDE:
 
+```text
 Repo-Root/
 ├── Gateway_Done/          # Kode untuk ESP32 Gateway (Penerima + MQTT)
 │   └── Gateway_Done.ino
